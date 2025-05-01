@@ -3,7 +3,7 @@ package com.be16.calculator;
 import java.util.*;
 
 class Calculator{
-    private List<Integer> result = new ArrayList<Integer>();
+    private List<Integer> result = new ArrayList<>();
 
     public void calculate(int num1, int num2, char oper) {
         try {
@@ -49,7 +49,7 @@ class Calculator{
 
 }
 
-public class App {
+public class Lv2App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Calculator cal = new Calculator();
